@@ -154,4 +154,4 @@ def download_svg():
     return send_file(path, as_attachment=True, download_name='output.svg')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5666)
